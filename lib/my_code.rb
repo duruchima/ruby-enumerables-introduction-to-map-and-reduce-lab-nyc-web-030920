@@ -6,6 +6,6 @@ def map_to_negativize(source_array)
     element = source_array[i]
     result = element * -1
     new_array << result
-  end  
+  end
   new_array
 end
