@@ -33,3 +33,15 @@ def map_to_double(source_array)
   end
   new_array
 end
+
+def map_to_square(source_array)
+  new_array=[]
+  i=0
+  while i<source_array.length do
+    element = source_array[i]
+    total = element * element
+    new_array<<total
+    i+=1
+  end
+  new_array
+end
